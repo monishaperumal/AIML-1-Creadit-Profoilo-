@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monisha P | Premium AI & ML Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="premium-styles.css">
+</head>
+<body>
+  <!-- Animated Particle Background -->
+  <div id="particle-bg" class="particle-background"></div>
+  
+  <!-- Scroll Progress Bar -->
+  <div id="progress-bar" class="progress-bar"></div>
+  
+  <!-- Custom Cursor Glow -->
+  <div id="cursor-glow" class="cursor-glow"></div>
+
+  <div class="page-wrapper">
+    <!-- Floating Navbar with Blur Effect -->
+    <header class="floating-header">
+      <nav class="navbar">
+        <div class="nav-brand">
+          <div class="brand-icon">MP</div>
+          <div class="brand-text">
+            <span class="brand-name">Monisha P</span>
+            <span class="brand-title">AI & ML Portfolio</span>
+          </div>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home" data-section>Home</a></li>
+          <li><a href="#about" data-section>About</a></li>
+          <li><a href="#skills" data-section>Skills</a></li>
+          <li><a href="#projects" data-section>Projects</a></li>
+          <li><a href="#experience" data-section>Experience</a></li>
+          <li><a href="#certifications" data-section>Certifications</a></li>
+          <li><a href="#contact" data-section>Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+          <i class="fas fa-moon"></i>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="stars"></div>
+      <div class="hero-content">
+        <div class="typing-wrapper">
+          <h1 class="hero-title">
+            <span class="typing-cursor">Hi, I'm Monisha P</span>
+          </h1>
+          <p class="hero-subtitle">Aspiring AI & ML Engineer | Innovator | Problem Solver</p>
+          <div class="typing-lines">
+            <div class="typing-line" data-text="🤖 Building Intelligent Solutions"></div>
+            <div class="typing-line" data-text="🧠 Exploring Generative AI"></div>
+            <div class="typing-line" data-text="🚀 Creating Impact with Technology"></div>
+          </div>
+        </div>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary glow-btn">
+            <span>View Portfolio</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <span>Get in Touch</span>
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about reveal-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">About</span>
+          <h2 class="section-title">Who I Am</h2>
+          <div class="title-line"></div>
+        </div>
+        
+        <div class="about-grid">
+          <div class="about-content">
+            <p class="about-text">I'm Monisha, a passionate AI & ML student dedicated to creating intelligent, empathetic solutions that make technology accessible to everyone.</p>
+            <div class="traits-grid">
+              <div class="trait-card glass-card">
+                <i class="fas fa-lightbulb trait-icon"></i>
+                <h4>Self-Confident</h4>
+                <p>Ready to experiment and learn from every challenge</p>
+              </div>
+              <div class="trait-card glass-card">
+                <i class="fas fa-users trait-icon"></i>
+                <h4>Collaborative</h4>
+                <p>Strong teamwork and communication skills</p>
+              </div>
+              <div class="trait-card glass-card">
+                <i class="fas fa-brain trait-icon"></i>
+                <h4>Problem Solver</h4>
+                <p>Hands-on mindset for designing practical solutions</p>
+              </div>
+              <div class="trait-card glass-card">
+                <i class="fas fa-code trait-icon"></i>
+                <h4>Builder</h4>
+                <p>From concept to implementation with precision</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills reveal-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Skills</span>
+          <h2 class="section-title">Technical Arsenal</h2>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-category glass-card">
+            <h3><i class="fas fa-code"></i> Programming</h3>
+            <div class="skill-bars">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>Python</span>
+                  <span class="skill-percent">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>Java</span>
+                  <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>C/C++</span>
+                  <span class="skill-percent">78%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 78%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category glass-card">
+            <h3><i class="fas fa-globe"></i> Web Development</h3>
+            <div class="skill-bars">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>HTML & CSS</span>
+                  <span class="skill-percent">88%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 88%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>JavaScript</span>
+                  <span class="skill-percent">82%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 82%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>React.js</span>
+                  <span class="skill-percent">75%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 75%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category glass-card">
+            <h3><i class="fas fa-database"></i> Backend & Data</h3>
+            <div class="skill-bars">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>MySQL</span>
+                  <span class="skill-percent">86%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 86%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>Spring Boot</span>
+                  <span class="skill-percent">80%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category glass-card">
+            <h3><i class="fas fa-robot"></i> AI & ML</h3>
+            <div class="skill-bars">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>Machine Learning</span>
+                  <span class="skill-percent">84%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 84%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>Generative AI</span>
+                  <span class="skill-percent">81%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 81%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category glass-card">
+            <h3><i class="fas fa-cloud"></i> Cloud</h3>
+            <div class="skill-bars">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>Oracle Cloud</span>
+                  <span class="skill-percent">79%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 79%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>AWS Basics</span>
+                  <span class="skill-percent">70%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 70%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category glass-card">
+            <h3><i class="fas fa-wrench"></i> Tools</h3>
+            <div class="tools-grid">
+              <span class="tool-badge">Git</span>
+              <span class="tool-badge">Docker</span>
+              <span class="tool-badge">Maven</span>
+              <span class="tool-badge">Jupyter</span>
+              <span class="tool-badge">VS Code</span>
+              <span class="tool-badge">Figma</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section with Modal -->
+    <section id="projects" class="projects reveal-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Portfolio</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project-card glass-card" data-project="1">
+            <div class="project-header">
+              <i class="fas fa-robot project-icon"></i>
+              <span class="project-tag">AI/NLP</span>
+            </div>
+            <h3>Chatbot for Autism Children</h3>
+            <p class="project-desc">An empathetic AI chatbot designed to support communication and learning for children with autism using conversational intelligence.</p>
+            <div class="project-tech">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">NLP</span>
+              <span class="tech-badge">UX Design</span>
+            </div>
+            <div class="project-footer">
+              <a href="#" class="project-link" data-modal="1">View Details <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="project-card glass-card" data-project="2">
+            <div class="project-header">
+              <i class="fas fa-chart-line project-icon"></i>
+              <span class="project-tag">ML</span>
+            </div>
+            <h3>AI Recommendation Engine</h3>
+            <p class="project-desc">Intelligent recommendation system using machine learning to personalize content suggestions based on user behavior and preferences.</p>
+            <div class="project-tech">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">ML</span>
+              <span class="tech-badge">Data Analysis</span>
+            </div>
+            <div class="project-footer">
+              <a href="#" class="project-link" data-modal="2">View Details <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="project-card glass-card" data-project="3">
+            <div class="project-header">
+              <i class="fas fa-building project-icon"></i>
+              <span class="project-tag">Enterprise</span>
+            </div>
+            <h3>Oracle Cloud Internship</h3>
+            <p class="project-desc">Hands-on experience building AI-driven enterprise solutions, learning industry best practices and cloud-enabled architecture patterns.</p>
+            <div class="project-tech">
+              <span class="tech-badge">Oracle Cloud</span>
+              <span class="tech-badge">AI/ML</span>
+              <span class="tech-badge">Automation</span>
+            </div>
+            <div class="project-footer">
+              <a href="#" class="project-link" data-modal="3">View Details <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience reveal-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Journey</span>
+          <h2 class="section-title">Experience & Learning</h2>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item glass-card">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>AI Intern at Oracle</h3>
+              <p class="timeline-date">2025</p>
+              <p>Developed AI-driven solutions, collaborated on enterprise automation projects, and gained hands-on experience with Oracle Cloud technologies.</p>
+              <ul class="timeline-points">
+                <li>Built intelligent systems using Oracle's AI tools</li>
+                <li>Participated in cross-functional team discussions</li>
+                <li>Learned best practices in enterprise AI deployment</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item glass-card">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>AI Foundation Course</h3>
+              <p class="timeline-date">Oct 2025</p>
+              <p>Completed comprehensive training in AI fundamentals, covering concepts, problem framing, and ethical considerations.</p>
+              <ul class="timeline-points">
+                <li>Mastered core AI and ML concepts</li>
+                <li>Studied supervised and unsupervised learning</li>
+                <li>Learned about AI ethics and responsible design</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item glass-card">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Generative AI Course</h3>
+              <p class="timeline-date">Nov 2025</p>
+              <p>Advanced training in generative AI, focusing on prompt engineering and creative solution development.</p>
+              <ul class="timeline-points">
+                <li>Explored large language models and generative systems</li>
+                <li>Practiced prompt engineering techniques</li>
+                <li>Built practical AI-powered applications</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications reveal-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Achievements</span>
+          <h2 class="section-title">Certifications & Recognition</h2>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="certifications-grid">
+          <div class="cert-card glass-card">
+            <div class="cert-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <h3>Oracle AI Foundation</h3>
+            <p>Verification of AI fundamentals and practical application knowledge</p>
+            <span class="cert-year">2025</span>
+          </div>
+
+          <div class="cert-card glass-card">
+            <div class="cert-icon">
+              <i class="fas fa-medal"></i>
+            </div>
+            <h3>AICTE AI & ML Training</h3>
+            <p>Industry-aligned training in Artificial Intelligence and Machine Learning</p>
+            <span class="cert-year">2025</span>
+          </div>
+
+          <div class="cert-card glass-card">
+            <div class="cert-icon">
+              <i class="fas fa-brain"></i>
+            </div>
+            <h3>Generative AI Certification</h3>
+            <p>Advanced certification in generative AI and creative solutions</p>
+            <span class="cert-year">2025</span>
+          </div>
+
+          <div class="cert-card glass-card">
+            <div class="cert-icon">
+              <i class="fas fa-file-alt"></i>
+            </div>
+            <h3>Paper Presentation</h3>
+            <p>Published "Chatbot for Autism Children" presentation</p>
+            <span class="cert-year">2025</span>
+          </div>
+
+          <div class="cert-card glass-card">
+            <div class="cert-icon">
+              <i class="fas fa-rocket"></i>
+            </div>
+            <h3>Tech Event Participation</h3>
+            <p>Active participation in hackathons and showcase events</p>
+            <span class="cert-year">2024-2025</span>
+          </div>
+
+          <div class="cert-card glass-card">
+            <div class="cert-icon">
+              <i class="fas fa-hands-helping"></i>
+            </div>
+            <h3>Community Service</h3>
+            <p>Volunteering in educational and tech initiatives</p>
+            <span class="cert-year">2024-2025</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact reveal-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Get In Touch</span>
+          <h2 class="section-title">Let's Connect</h2>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info glass-card">
+            <h3>Contact Details</h3>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <p class="contact-label">Email</p>
+                <p><a href="mailto:monishap2038008@gmail.com">monishap2038008@gmail.com</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <p class="contact-label">Phone</p>
+                <p><a href="tel:+919942004625">+91 9942004625</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <p class="contact-label">Location</p>
+                <p>Bangalore, India</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+
+          <form id="contact-form" class="contact-form glass-card">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required placeholder="Your name">
+              <span class="form-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="Your email">
+              <span class="form-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required placeholder="Message subject">
+              <span class="form-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" required placeholder="Your message..."></textarea>
+              <span class="form-error"></span>
+            </div>
+            <button type="submit" class="btn btn-primary glow-btn">
+              <span>Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2026 Monisha P • AI & ML Student Portfolio</p>
+    </footer>
+  </div>
+
+  <!-- Project Modal -->
+  <div id="project-modal" class="modal">
+    <div class="modal-content glass-card">
+      <button class="modal-close">&times;</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Success Notification -->
+  <div id="success-notification" class="success-notification">
+    <i class="fas fa-check-circle"></i>
+    <span>Message sent successfully!</span>
+  </div>
+
+  <script src="premium-script.js"></script>
+</body>
+</html>
